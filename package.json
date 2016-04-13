@@ -1,0 +1,23 @@
+{
+  "name": "spacetime-logs-api",
+  "version": "0.0.1",
+  "description": "Space/Time Logs API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nypl-spacetime/spacetime-logs-api.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "NYPL Labs",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "highland": "^2.7.4",
+    "spacetime-config": "github:nypl-spacetime/spacetime-config"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8"
+  }
+}
