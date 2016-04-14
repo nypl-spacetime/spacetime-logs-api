@@ -3,7 +3,7 @@ var app = express()
 var config = require('spacetime-config')
 var logs = require('./index')
 
-app.use('/', logs)
+app.use('/logs', logs)
 
 app.listen(config.api.bindPort, function () {
   console.log(config.logo.join('\n'))

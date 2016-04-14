@@ -1,6 +1,6 @@
 {
   "name": "spacetime-logs-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Space/Time Logs API",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
+    "glob": "^7.0.3",
     "highland": "^2.7.4",
     "spacetime-config": "github:nypl-spacetime/spacetime-config"
   },
