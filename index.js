@@ -7,7 +7,7 @@ const express = require('express')
 const glob = require('glob')
 const config = require('spacetime-config')
 
-const baseDir = config.data.outputDir
+const baseDir = config.etl.outputDir
 const pattern = path.join(baseDir, '**', '*.log.ndjson')
 
 var logs = {}
